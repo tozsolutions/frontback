@@ -1,0 +1,612 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "Güneş Kırıcı Sistemlerde Sürdürülebilirlik: Geleceğin Yeşil Binaları İçin Akıllı Çözümler",
+      "slug": "gunes-kirici-sistemlerde-surdurulebilirlik",
+      "category": "surdurulebilirlik",
+      "categoryLabel": "Sürdürülebilirlik & Enerji Verimliliği",
+      "publishDate": "2026-03-01",
+      "readTime": "8 dakika",
+      "excerpt": "İklim değişikliği ve enerji maliyetlerinin artışı, güneş kırıcı sistemleri modern mimarinin en önemli bileşeni haline getiriyor. LEED, BREEAM sertifikalarına katkılarını keşfedin.",
+      "keywords": ["güneş kırıcı", "sürdürülebilir mimari", "enerji verimliliği", "yeşil bina", "LEED", "BREEAM", "pasif ev", "dış gölgeleme"],
+      "content": "Güneş kırıcı sistemler, sürdürülebilir mimarinin vazgeçilmez bir parçası haline gelmiştir. Doğru tasarım ve uygulama ile %25-45 enerji tasarrufu, 5-9 yıl geri dönüş süresi, LEED/BREEAM puan artışı ve %70 karbon ayak izi azaltımı sağlanır.",
+      "sections": [
+        {
+          "title": "Güneş Kırıcı Nedir ve Nasıl Çalışır?",
+          "content": "Güneş kırıcı sistemler, bina cephelerine entegre edilen ve doğrudan güneş ışınlarını kontrol ederek iç mekan sıcaklığını düzenleyen mimari elemanlardır. Temel çalışma prensibi, yaz aylarında güneşin yüksek açılı ışınlarını bloke ederken, kış aylarında düşük açılı güneş ışığının içeri girmesine izin vermektir."
+        },
+        {
+          "title": "Enerji Tasarrufu Potansiyeli",
+          "content": "Avrupa'da yapılan bağımsız araştırmalar, doğru tasarlanmış güneş kırıcı sistemlerin soğutma maliyetlerinde %40-60, ısıtma maliyetlerinde %10-15, aydınlatma maliyetlerinde %20-40 tasarruf sağladığını gösteriyor. Toplam enerji tüketimi azalması yıllık bazda %25-45 arası."
+        },
+        {
+          "title": "Yeşil Bina Sertifikasyonlarına Katkı",
+          "content": "Güneş kırıcı sistemler LEED'den 3-8 kredi puanı, BREEAM'de İyi-Mükemmel seviye yükselişi ve Passivhaus standardının kritik gereksinimlerini karşılamaya yardımcı olur."
+        },
+        {
+          "title": "Karbon Ayak İzi Azaltımı",
+          "content": "50 yıllık yaşam döngüsünde, güneş kırıcı sistemler 7,000+ kg CO₂/m² pozitif etki yaratır. Enerji tasarrufu ile 50 yılda 7,500-12,500 kg CO₂/m² tasarruf sağlanır."
+        },
+        {
+          "title": "Maliyet-Fayda Analizi",
+          "content": "Sabit güneş kırıcı sistemlerde yatırım maliyeti 1,200-3,500 TL/m², hareketli/dinamik sistemlerde 3,500-8,000 TL/m² arası. Geri dönüş süresi enerji tasarrufu ile 4-12 yıl arasında değişiyor."
+        }
+      ],
+      "image": "/images/blog/gunes-kirici-surdurulebilirlik.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/gunes-kirici-sistemlerde-surdurulebilirlik"
+    },
+    {
+      "id": 2,
+      "title": "Mimari Tasarımda Brise Soleil: Estetik ve Fonksiyonun Mükemmel Uyumu",
+      "slug": "mimari-tasarimda-brise-soleil",
+      "category": "mimari-tasarim",
+      "categoryLabel": "Mimari Tasarım & Cephe Sistemleri",
+      "publishDate": "2026-03-05",
+      "readTime": "10 dakika",
+      "excerpt": "Le Corbusier tarafından popüler hale getirilen brise soleil, modern mimarinin en ikonik unsurlarından biri. Tasarım prensipleri, malzeme seçenekleri ve dünyadan başarılı örnekler.",
+      "keywords": ["brise soleil", "mimari güneş kırıcı", "cephe tasarımı", "dış gölgeleme", "alüminyum cephe", "mimari estetik", "bina kabuğu"],
+      "content": "Brise soleil sistemleri, çağdaş mimarinin hem estetik hem de fonksiyonel gereksinimlerini karşılayan çok yözlü çözümlerdir. Doğru tasarım ile ikonik bina kimliği, %40-60 enerji tasarrufu, kullanıcı konforu maksimizasyonu ve uzun ömürlü performans sağlanır.",
+      "sections": [
+        {
+          "title": "Tarihsel Gelişim ve Evrim",
+          "content": "Le Corbusier'in öncü projelerinden (Villa Savoye, Cité de Refuge) modern alüminyum sistemlere, oradan çağdaş dinamik ve IoT entegre çözümlere kadar brise soleil'in evrimi."
+        },
+        {
+          "title": "Tasarım Prensipleri ve Metodoloji",
+          "content": "Güneş kontrolü, enerji performansı, estetik kimlik ve fonksiyonel gereksinimler. İklim analizi, bina oryantasyonu, lamel geometrisi, malzeme seçimi ve performans simülasyonu adımları."
+        },
+        {
+          "title": "Sistem Tipleri",
+          "content": "Yatay lamelli sistemler (güney cepheler için), dikey lamelli sistemler (doğu/batı cepheler için), egg-crate sistemler (tüm yönler) ve dinamik/hareketli sistemler (premium projeler)."
+        },
+        {
+          "title": "Malzeme Karşılaştırması",
+          "content": "Alüminyum (hafif, dayanıklı, 40-50 yıl ömür), paslanmaz çelik (çok güçlü, 50-60 yıl), ahşap (doğal, sıcak, 20-30 yıl) ve kompozitler (özelleştirilmiş özellikler)."
+        },
+        {
+          "title": "Dünyadan İkonik Örnekler",
+          "content": "Institut du Monde Arabe (Paris), One Angel Square (Manchester), The Shard (Londra), Louvre Abu Dhabi ve Copenhagen International School."
+        }
+      ],
+      "image": "/images/blog/mimari-tasarimda-brise-soleil.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/mimari-tasarimda-brise-soleil"
+    },
+    {
+      "id": 3,
+      "title": "Modüler İnşaat Teknolojileri: Geleceğin Yapı Sistemleri Bugün",
+      "slug": "moduler-insaat-teknolojileri",
+      "category": "inovasyon",
+      "categoryLabel": "İnovasyon & Teknoloji",
+      "publishDate": "2026-03-10",
+      "readTime": "9 dakika",
+      "excerpt": "İnşaat sektörü modüler inşaata yöneliyor. TOZ Yapı olarak güneş kırıcı ve cephe sistemlerimizde modüler prensipleri uyguluyoruz.",
+      "keywords": ["modüler inşaat", "prefabrik sistemler", "off-site construction", "BIM", "lean construction", "sürdürülebilir yapı", "endüstriyel inşaat"],
+      "content": "Modüler inşaat, geleneksel yöntemlerin yol açtığı zaman aşımı, maliyet artışı ve kalite kontrol sorunlarına alternatif olarak hızla yaygınlaşıyor.",
+      "sections": [
+        {
+          "title": "Modüler İnşaat Nedir?",
+          "content": "Bina bileşenlerinin fabrika ortamında üretilip şantiyede monte edilmesi süreci. Kalite kontrol, hız ve maliyet avantajları."
+        },
+        {
+          "title": "Geleneksel vs. Modüler Karşılaştırması",
+          "content": "Zaman, maliyet, kalite, güvenlik ve çevresel etki açısından detaylı karşılaştırma."
+        },
+        {
+          "title": "TOZ Yapı Modüler Sistemleri",
+          "content": "Güneş kırıcı ve cephe sistemlerinde modüler yaklaşım, BIM entegrasyonu ve hızlı montaj avantajları."
+        }
+      ],
+      "image": "/images/blog/moduler-insaat-teknolojileri.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/moduler-insaat-teknolojileri"
+    },
+    {
+      "id": 4,
+      "title": "Akıllı Gölgeleme ile Enerji Maliyetlerini Nasıl Düşürürsünüz?",
+      "slug": "akilli-golgeleme-enerji-maliyetleri",
+      "category": "enerji-verimliligi",
+      "categoryLabel": "Enerji Verimliliği",
+      "publishDate": "2026-03-15",
+      "readTime": "8 dakika",
+      "excerpt": "Akıllı gölgeleme sistemleri %30-50'ye varan soğutma maliyeti azaltımı sunuyor. Veri odaklı yaklaşım ve ROI hesaplama.",
+      "keywords": ["akıllı gölgeleme", "enerji tasarrufu", "bina otomasyonu", "HVAC optimizasyonu", "güneş kontrolü", "akıllı bina", "IoT"],
+      "content": "Enerji maliyetleri tüm dünyada artarken, akıllı gölgeleme sistemleri hızlı ROI sağlayarak operasyonel giderleri düşürüyor.",
+      "sections": [
+        {
+          "title": "Akıllı Gölgeleme Nedir?",
+          "content": "Sensörler, otomasyon ve IoT ile entegre çalışan, gerçek zamanlı optimizasyon yapan gölgeleme sistemleri."
+        },
+        {
+          "title": "Enerji Tasarrufu Mekanizmaları",
+          "content": "Güneş takip sistemleri, hava durumu entegrasyonu, kullanıcı davranışı öğrenme ve tahmine dayalı enerji yönetimi."
+        },
+        {
+          "title": "Gerçek Proje Verileri ve ROI",
+          "content": "Ofis binaları, AVM'ler ve hastanelerden vaka analizleri. Yatırım geri dönüş hesaplamaları."
+        }
+      ],
+      "image": "/images/blog/akilli-golgeleme-enerji.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/akilli-golgeleme-enerji-maliyetleri"
+    },
+    {
+      "id": 5,
+      "title": "Dış Cephe Kaplamalarında Malzeme Seçimi: Kapsamlı Karşılaştırma Rehberi",
+      "slug": "dis-cephe-kaplamalarinda-malzeme-secimi",
+      "category": "teknik-rehber",
+      "categoryLabel": "Teknik Rehberler",
+      "publishDate": "2026-03-20",
+      "readTime": "10 dakika",
+      "excerpt": "15 farklı cephe kaplama malzemesinin teknik özellikleri, maliyetleri ve uygulama alanları açısından karşılaştırması.",
+      "keywords": ["dış cephe kaplama", "alüminyum kompozit", "HPL", "seramik cephe", "doğal taş", "fiber çimento", "cephe malzemeleri karşılaştırması"],
+      "content": "Doğru malzeme seçimi; dayanıklılık, bakım maliyeti, enerji verimliliği ve görsel çekicilik açısından belirleyici oluyor.",
+      "sections": [
+        {
+          "title": "Alüminyum Kompozit Paneller (ACP)",
+          "content": "Hafif, dayanıklı, geniş renk seçeneği. Fiyat aralığı ve uygulama alanları."
+        },
+        {
+          "title": "High Pressure Laminate (HPL)",
+          "content": "Yüksek basınçlı laminat, çizilme direnci, dış mekan dayanıklılığı."
+        },
+        {
+          "title": "Seramik ve Porselen Cephe",
+          "content": "Doğal görünüm, UV direnci, düşük bakım. Ventile cephe sistemleri."
+        },
+        {
+          "title": "Doğal Taş Kaplamalar",
+          "content": "Granit, mermer, kireçtaşı. Prestij ve dayanıklılık."
+        },
+        {
+          "title": "Termal Performans ve Maliyet Analizi",
+          "content": "2026 Türkiye piyasa fiyatları ve enerji verimliliği karşılaştırması."
+        }
+      ],
+      "image": "/images/blog/cephe-kaplama-malzeme.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/dis-cephe-kaplamalarinda-malzeme-secimi"
+    },
+    {
+      "id": 6,
+      "title": "Otomatik Kapı Sistemlerinde Güvenlik Standartları: EN 16005 ve Ötesi",
+      "slug": "otomatik-kapi-guvenlik-standartlari",
+      "category": "guvenlik",
+      "categoryLabel": "Güvenlik & Standartlar",
+      "publishDate": "2026-03-25",
+      "readTime": "9 dakika",
+      "excerpt": "EN 16005 standardı, otomatik kapıların güvenli tasarımı ve montajı için asgari gereksinimleri belirler. Detaylı teknik inceleme.",
+      "keywords": ["otomatik kapı güvenliği", "EN 16005", "CE işareti", "güvenlik sensörü", "darbe kuvveti ölçümü", "erişilebilirlik", "yangın kapısı"],
+      "content": "Otomatik kapı sistemleri, günlük milyonlarca kişinin kullandığı yüksek trafikli yapı elemanlarıdır. Güvenlik standartlarına uygunluk hayati önem taşır.",
+      "sections": [
+        {
+          "title": "EN 16005 Standardı Genel Bakış",
+          "content": "Avrupa standardı gereksinimleri, kapsam ve uygulama alanları."
+        },
+        {
+          "title": "Temel Güvenlik Gereksinimleri",
+          "content": "Darbe kuvveti limitleri, güvenlik sensör sistemleri, acil durum fonksiyonları."
+        },
+        {
+          "title": "Test ve Ölçüm Prosedürleri",
+          "content": "CE işaretleme süreci, periyodik bakım zorunlulukları, sorumluluk ve garanti."
+        }
+      ],
+      "image": "/images/blog/otomatik-kapi-guvenlik.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/otomatik-kapi-guvenlik-standartlari"
+    },
+    {
+      "id": 7,
+      "title": "Sürdürülebilir Yapı Sertifikasyonları: LEED, BREEAM ve Diğerleri",
+      "slug": "surdurulebilir-yapi-sertifikasyonlari",
+      "category": "surdurulebilirlik",
+      "categoryLabel": "Sürdürülebilirlik & Sertifikasyon",
+      "publishDate": "2026-03-28",
+      "readTime": "11 dakika",
+      "excerpt": "LEED, BREEAM, Passivhaus gibi yeşil bina sertifikasyon sistemleri, gereksinimleri ve TOZ Yapı ürünlerinin katkıları.",
+      "keywords": ["LEED sertifikası", "BREEAM", "yeşil bina", "sürdürülebilir yapı", "çevre dostu inşaat", "enerji verimliliği", "yeşil bina danışmanlığı"],
+      "content": "İklim hedefleri, yatırımcı beklentileri ve kullanıcı bilinci, sürdürülebilir yapıları standart hale getiriyor. TOZ Yapı ürünleri LEED, BREEAM ve Passivhaus sertifikalarına önemli katkılar sağlıyor.",
+      "sections": [
+        {
+          "title": "LEED (Leadership in Energy and Environmental Design)",
+          "content": "Tarihçe, sertifika seviyeleri (Certified, Silver, Gold, Platinum), puanlama kategorileri ve TOZ Yapı ürünlerinin katkıları."
+        },
+        {
+          "title": "BREEAM (Building Research Establishment Environmental Assessment Method)",
+          "content": "UK kökenli sistem, değerlendirme kriterleri, Türkiye'de uygulamalar."
+        },
+        {
+          "title": "Passivhaus (Pasif Ev Standardı)",
+          "content": "Alman menşeili, enerji gereksinimleri, sertifikasyon süreci."
+        },
+        {
+          "title": "TOZ Yapı Ürünleri ile Puan Kazanımı",
+          "content": "Güneş kırıcı sistemler, yüksek performanslı cephe, akıllı gölgeleme, BIM dokümantasyon."
+        }
+      ],
+      "image": "/images/blog/yesil-bina-sertifikasyon.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/surdurulebilir-yapi-sertifikasyonlari"
+    },
+    {
+      "id": 8,
+      "title": "Brise Soleil Nedir? Kapsamlı Başlangıç Rehberi",
+      "slug": "brise-soleil-nedir",
+      "category": "mimari-tasarim",
+      "categoryLabel": "Mimari Tasarım & Cephe Sistemleri",
+      "publishDate": "2025-07-10",
+      "readTime": "7 dakika",
+      "excerpt": "Fransızca'dan türetilen ve 'güneş kırıcı' anlamına gelen Brise Soleil, binaları güneş ısısından korurken doğal ışığın içeri girmesine izin verir.",
+      "keywords": ["brise soleil", "güneş kırıcı", "dış cephe jaluzi", "mimari gölgeleme", "alüminyum cephe", "sürdürülebilir mimari"],
+      "content": "Brise Soleil sürdürülebilir modern bina tasarımının sembolü haline gelmiştir. Tasarımın arkasındaki prensip, bina içine giren hem güneş ışığı hem de ısı miktarını kontrol ederek içeridekiler için çevre dostu, rahat bir ortam yaratmaktır.",
+      "sections": [
+        {
+          "title": "Nasıl Çalışır?",
+          "content": "Bir Brise Soleil sisteminin temel işlevi, doğal ışığın süzülmesine izin verirken bir binaya giren güneş ısısı miktarını kontrol etmektir. Güneş ısısı kazanımını yöneterek, klima veya yapay soğutma sistemlerine olan ihtiyacı azaltır."
+        },
+        {
+          "title": "Farklı Brise Soleil Ürün Türleri",
+          "content": "Ahşap (nötr, estetik, yenilenebilir), alüminyum (modern, şık, dayanıklı) ve özel çözümler."
+        }
+      ],
+      "image": "/images/blog/brise-soleil-nedir.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/brise-soleil-nedir"
+    },
+    {
+      "id": 9,
+      "title": "Brise Soleil'in Sürdürülebilirlik Faydaları",
+      "slug": "brise-soleil-surdurulebilirlik-faydalari",
+      "category": "surdurulebilirlik",
+      "categoryLabel": "Sürdürülebilirlik & Enerji Verimliliği",
+      "publishDate": "2023-07-21",
+      "readTime": "8 dakika",
+      "excerpt": "Gezegen giderek daha sıcak hale gelirken, brise soleil pasif güneş koruma çözümü olarak karbon ayak izini azaltır.",
+      "keywords": ["brise soleil sürdürülebilirlik", "karbon ayak izi", "enerji tasarrufu", "pasif güneş tasarımı", "yeşil bina"],
+      "content": "Brise Soleil gibi güneş koruma çözümleri, azaltılmış enerji tüketimi, geliştirilmiş termal konfor, artırılmış doğal aydınlatma ve estetik çekicilik dahil olmak üzere çok sayıda sürdürülebilirlik faydası sunar.",
+      "sections": [
+        {
+          "title": "Çevresel Faydalar",
+          "content": "Pasif güneş tasarımı ile doğal aydınlatma optimizasyonu, enerji tüketiminde %36'ya varan azalma."
+        },
+        {
+          "title": "Malzeme Seçimi ve Yaşam Döngüsü",
+          "content": "Alüminyum (%95 geri dönüştürülebilir), ahşap (sürdürülebilir ormanlar), cam (low-E, IGU)."
+        }
+      ],
+      "image": "/images/blog/brise-soleil-surdurulebilirlik.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/brise-soleil-surdurulebilirlik-faydalari"
+    },
+    {
+      "id": 10,
+      "title": "Brise Soleil: Güneş Yolları ve Optimal Kanat Yönü",
+      "slug": "brise-soleil-gunes-yollari-kanat-yonu",
+      "category": "mimari-tasarim",
+      "categoryLabel": "Mimari Tasarım & Cephe Sistemleri",
+      "publishDate": "2023-07-04",
+      "readTime": "6 dakika",
+      "excerpt": "Güneşin izlediği yol ve kanat yönü optimizasyonu ile brise soleil sistemlerinden maksimum verim alın.",
+      "keywords": ["güneş yolu analizi", "kanat yönü", "brise soleil tasarım", "azimut açısı", "irtifa açısı", "gölgeleme optimizasyonu"],
+      "content": "Güneş kırıcı tasarımında güneş yolları ve kanat yönü optimizasyonu, enerji verimliliği ve kullanıcı konforu için kritik öneme sahiptir.",
+      "sections": [
+        {
+          "title": "Güneş Yollarını Anlamak",
+          "content": "Azimut açısı ve irtifa açısı kavramları. Güneş simülasyonları ile yıl boyu etkinlik analizi."
+        },
+        {
+          "title": "Kanat Yönünü Optimize Etme",
+          "content": "Doğu/batı cepheler için dikey kanatlar, güney cepheler için yatay sistemler. Contrasol optimizasyon yaklaşımı."
+        }
+      ],
+      "image": "/images/blog/gunes-yollari-kanat-yonu.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/brise-soleil-gunes-yollari-kanat-yonu"
+    },
+    {
+      "id": 11,
+      "title": "Brise Soleil İnovasyonları: Teknolojilerdeki İlerlemeler",
+      "slug": "brise-soleil-inovasyonlari-teknoloji",
+      "category": "inovasyon",
+      "categoryLabel": "İnovasyon & Teknoloji",
+      "publishDate": "2023-09-05",
+      "readTime": "9 dakika",
+      "excerpt": "Akıllı güneş takip programları, fotovoltaik brise soleil, dinamik cepheler ve 3D yazdırma teknolojileri.",
+      "keywords": ["brise soleil inovasyon", "akıllı güneş takip", "fotovoltaik cephe", "dinamik cephe", "kinetik bina", "3D yazdırma"],
+      "content": "Malzeme ve teknolojilerdeki son ilerlemeler, brise soleil'i pasif bir gölgelendirme çözümünden akıllı ve sürdürülebilir bir mimari özellik haline getirdi.",
+      "sections": [
+        {
+          "title": "Akıllı Güneş Takip Programları",
+          "content": "Coğrafi konum, tarih ve saat bazlı otomatik ayarlama. Işık ve rüzgar sensörleri entegrasyonu."
+        },
+        {
+          "title": "Fotovoltaik Brise Soleil",
+          "content": "Gölge sağlarken elektrik üreten çift amaçlı sistemler. Yenilenebilir enerji entegrasyonu."
+        },
+        {
+          "title": "Dinamik Cepheler ve Kinetik Binalar",
+          "content": "Kullanıcı kontrollü, ışık projeksiyonlu ve rüzgara duyarlı dinamik cepheler."
+        },
+        {
+          "title": "Dijital Fabrikasyon ve 3D Yazdırma",
+          "content": "Karmaşık geometriler, hızlı prototipleme, atık azaltma."
+        }
+      ],
+      "image": "/images/blog/brise-soleil-inovasyon.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/brise-soleil-inovasyonlari-teknoloji"
+    },
+    {
+      "id": 12,
+      "title": "İnşaat Tedarik Zincirlerinde Sürdürülebilirlik",
+      "slug": "insaat-tedarik-zincirlerinde-surdurulebilirlik",
+      "category": "surdurulebilirlik",
+      "categoryLabel": "Sürdürülebilirlik & Tedarik Zinciri",
+      "publishDate": "2024-09-16",
+      "readTime": "8 dakika",
+      "excerpt": "Tedarik zincirlerinde sürdürülebilirlik, çevresel etki, su kullanımı ve çalışan hakları. İnşaat sektörü için kapsamlı rehber.",
+      "keywords": ["tedarik zinciri sürdürülebilirlik", "yeşil tedarik", "inşaat çevresel etki", "modern kölelik", "FSC sertifikası"],
+      "content": "İnşaat sektörü, sürdürülebilirliği tedarik zinciri yönetimine entegre etme konusunda artan baskıyla karşı karşıya. Çevresel etki, su kullanımı ve sosyal sorumluluk kritik konular.",
+      "sections": [
+        {
+          "title": "Çevresel Etki",
+          "content": "İnşaat sektörü toplam karbon ayak izinin %40-45'ini oluşturur. Atık yönetimi ve sorumlu kaynak kullanımı."
+        },
+        {
+          "title": "Su Kullanımı",
+          "content": "Birleşik Krallık'ın toplam su tüketiminin %30'u inşaat sektöründen. Su kıtlığı riski ve verimli kullanım."
+        },
+        {
+          "title": "Sömürü ve Çalışan Hakları",
+          "content": "Modern kölelik, adil ücret, güvenli çalışma koşulları. Tedarik zinciri görünürlüğü."
+        }
+      ],
+      "image": "/images/blog/tedarik-zinciri-surdurulebilirlik.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/insaat-tedarik-zincirlerinde-surdurulebilirlik"
+    },
+    {
+      "id": 13,
+      "title": "İnşaatta Sürdürülebilirlik Nedir ve Çevresel Etkiyi Nasıl En Aza İndirebilirsiniz?",
+      "slug": "insaatta-surdurulebilirlik-nedir",
+      "category": "surdurulebilirlik",
+      "categoryLabel": "Sürdürülebilirlik & Enerji Verimliliği",
+      "publishDate": "2025-09-04",
+      "readTime": "7 dakika",
+      "excerpt": "İnşaat sektöründe sürdürülebilirlik, düşük karbonlu malzemeler, enerji verimli binalar ve doğal yaşam alanlarını koruma.",
+      "keywords": ["inşaat sürdürülebilirlik", "düşük karbonlu malzemeler", "Passivhaus", "enerji verimli bina", "yeşil tedarik zinciri"],
+      "content": "İnşaat sektörü daha yeşil bir dünya yaratmada rol oynuyor. Tedarik zincirlerini iyileştirmekten enerji verimli projeler inşa etmeye kadar çeşitli yaklaşımlar.",
+      "sections": [
+        {
+          "title": "Daha Yeşil Tedarik Zincirleri Oluşturun",
+          "content": "Enerji verimli ulaşım, yerel tedarikçiler, elektrikli araçlar, lojistik optimizasyonu."
+        },
+        {
+          "title": "Düşük Karbonlu Malzemeler",
+          "content": "Geri dönüştürülmüş cam, çelik, alüminyum, bakır, ahşap. Sentetik malzemelerden kaçının."
+        },
+        {
+          "title": "Enerji Verimli Binalara Katkıda Bulunun",
+          "content": "Passivhaus standartları, yenilenebilir enerji, doğal gölgelendirme, yeşil alanlar."
+        }
+      ],
+      "image": "/images/blog/insaatta-surdurulebilirlik.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/insaatta-surdurulebilirlik-nedir"
+    },
+    {
+      "id": 14,
+      "title": "Kavramdan Tamamlamaya: Tam Entegre Hizmet",
+      "slug": "kavramdan-tamamlamaya-tam-entegre-hizmet",
+      "category": "hizmetler",
+      "categoryLabel": "Hizmetlerimiz & Süreç",
+      "publishDate": "2024-10-21",
+      "readTime": "7 dakika",
+      "excerpt": "TOZ Yapı olarak tasarım, üretim ve kurulum aşamalarını dahili olarak yönetiyoruz. Sorunsuz, yüksek kaliteli çözüm.",
+      "keywords": ["anahtar teslim", "tasarım üretim kurulum", "entegre hizmet", "proje yönetimi", "cephe çözümleri"],
+      "content": "Kavramdan tamamlamaya benzersiz, tamamen entegre hizmet sunuyoruz. Müşterilerimizin özel ihtiyaçlarına uygun, sorunsuz, yüksek kaliteli bir çözüm aldıklarını garanti ediyoruz.",
+      "sections": [
+        {
+          "title": "Tasarım Aşaması: Her Projeye Özel Çözümler",
+          "content": "Müşteri ihtiyaçlarını anlama, işbirlikçi tasarım, sürdürülebilirlik odaklılık. CAD teknolojisi ve güneş analizi."
+        },
+        {
+          "title": "Üretim: Her Aşamada Hassasiyet ve Kalite",
+          "content": "Malzeme seçimi, dahili üretim, özelleştirme. Kalite güvencesi üzerinde tam kontrol."
+        },
+        {
+          "title": "Kurulum: Sahada Uzmanlık ve Hassasiyet",
+          "content": "Proje yönetimi, yetenekli kurulum ekipleri, detaylara özen gösterme. Sorunsuz koordinasyon."
+        }
+      ],
+      "image": "/images/blog/tam-entegre-hizmet.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/kavramdan-tamamlamaya-tam-entegre-hizmet"
+    },
+    {
+      "id": 15,
+      "title": "Sürdürülebilir Bina Geliştirme İçin 5 Ticari Cephe Fikri",
+      "slug": "surdurulebilir-bina-5-ticari-cephe-fikri",
+      "category": "mimari-tasarim",
+      "categoryLabel": "Mimari Tasarım & Cephe Sistemleri",
+      "publishDate": "2025-10-01",
+      "readTime": "6 dakika",
+      "excerpt": "Alüminyum cepheler, ahşap panjurlar, havalandırma panjurları, eko-dostu cam ve özel çözümler. Sürdürülebilir ticari bina fikirleri.",
+      "keywords": ["ticari cephe", "sürdürülebilir cephe", "alüminyum cephe", "ahşap cephe", "havalandırma panjuru", "low-e cam"],
+      "content": "Estetik açıdan çekici olduğu kadar sürdürülebilir olan en iyi ticari cephe fikirleri. Paydaşlar çevresel etkiyi azaltmak için somut adımlar bekliyor.",
+      "sections": [
+        {
+          "title": "Alüminyum Cepheler",
+          "content": "En çok yönlü ve sürdürülebilir malzeme. %95 geri dönüştürülebilir, korozyon direnci, yansıtıcı özellikler."
+        },
+        {
+          "title": "Ahşap Cepheler ve Panjurlar",
+          "content": "Batı kırmızı sediri, Avrupa meşesi, tatlı kestane. Accoya ve thermowood seçenekleri."
+        },
+        {
+          "title": "Havalandırma Panjurları",
+          "content": "Doğal hava akışı, yapay havalandırma ihtiyacını azaltma, enerji tüketimi düşüşü."
+        },
+        {
+          "title": "Eko-Dostu Cam",
+          "content": "Low-E cam, ısı yansıtma, doğal ışık geçişi. Çift ve üçlü cam üniteleri."
+        }
+      ],
+      "image": "/images/blog/ticari-cephe-fikirleri.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/surdurulebilir-bina-5-ticari-cephe-fikri"
+    },
+    {
+      "id": 16,
+      "title": "Pergola Sistemlerinde Son Teknolojiler: Bioclimatic'ten Akıllı Otomasyona",
+      "slug": "pergola-sistemlerinde-son-teknolojiler",
+      "category": "inovasyon",
+      "categoryLabel": "Ürün İncelemeleri & Teknoloji",
+      "publishDate": "2026-03-08",
+      "readTime": "7 dakika",
+      "excerpt": "Pergola sistemleri son 10 yılda dramatik bir evrim geçirdi. AI destekli, kendi enerjisini üreten, hava koşullarına otomatik uyum sağlayan high-tech yaşam alanları.",
+      "keywords": ["bioclimatic pergola", "akıllı pergola", "motorlu pergola", "güneş enerjili pergola", "IoT pergola", "outdoor living", "pergola otomasyonu"],
+      "content": "2026 yılı pergola teknolojilerindeki son yenilikler, akıllı özellikler, enerji üretimi seçenekleri ve TOZ Yapı'nın yeni nesil ürün gamı.",
+      "sections": [
+        {
+          "title": "Pergola Evrimi: Dünden Bugüne",
+          "content": "Basit ahşap yapılardan high-tech yaşam alanlarına dönüşüm."
+        },
+        {
+          "title": "Bioclimatic Sistemler",
+          "content": "Ayarlanabilir lameller, hava koşullarına otomatik uyum, termal konfor."
+        },
+        {
+          "title": "Akıllı Otomasyon Özellikleri",
+          "content": "Hava sensörü sistemleri, mobil uygulama kontrolü, IoT entegrasyonu."
+        },
+        {
+          "title": "Güneş Enerjisi Entegrasyonu",
+          "content": "Fotovoltaik pergola, kendi enerjisini üretme, şebeke bağlantısı."
+        }
+      ],
+      "image": "/images/blog/pergola-son-teknolojiler.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/pergola-sistemlerinde-son-teknolojiler"
+    },
+    {
+      "id": 17,
+      "title": "Zorlu Mimariler İçin Alüminyum Kapı Sistemleri",
+      "slug": "aluminyum-kapi-sistemleri-mimari",
+      "category": "urun-inceleme",
+      "categoryLabel": "Ürün İncelemeleri & Çözümler",
+      "publishDate": "2024-06-15",
+      "readTime": "7 dakika",
+      "excerpt": "Modern ve tarihi binalar için yüksek performanslı alüminyum kapı sistemleri. Isı yalıtımı, güvenlik ve estetik tasarım.",
+      "keywords": ["alüminyum kapı sistemleri", "ısı yalıtımlı alüminyum kapılar", "sürgülü balkon kapıları", "teras kapıları", "yangın kapıları", "pasif bina kapıları"],
+      "content": "Alüminyum doğrama sistemleri, günümüz mimarisi için vazgeçilmez bir detay haline geldi. Özellikle zorlu mimari projelerde, hem estetik hem de performans açısından tercih edilmektedir.",
+      "sections": [
+        {
+          "title": "Isı Yalıtımlı Alüminyum Kapı Modelleri",
+          "content": "Pasif bina standartlarına uygun sistemler, 0,62 W/m²K'ye kadar düşük ısı geçiş değerleri."
+        },
+        {
+          "title": "Balkon ve Teras Kapıları",
+          "content": "Kaldır-sür kapılar, sürgülü balkon kapıları, yüksek cam yüzeyleri, gizli menteşeler."
+        },
+        {
+          "title": "Endüstriyel ve Otomatik Kapı Sistemleri",
+          "content": "Manuel ve otomatik sürgülü kapılar, 3 metreye kadar kanat genişliği, 200 kg'a kadar ağırlık."
+        },
+        {
+          "title": "Yangın Kapıları",
+          "content": "EI15, EI30 yangın dayanım sınıfları, yangın yalıtım elemanları, iç ve dış yangın risklerine karşı koruma."
+        }
+      ],
+      "image": "/images/blog/aluminyum-kapi-sistemleri.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/aluminyum-kapi-sistemleri-mimari"
+    },
+    {
+      "id": 18,
+      "title": "Teras ve Balkon Kapıları: Modern İç Mekan Tasarımı İçin Önemli Unsurlar",
+      "slug": "teras-balkon-kapilari-modern-tasarim",
+      "category": "urun-inceleme",
+      "categoryLabel": "Ürün İncelemeleri & Çözümler",
+      "publishDate": "2024-06-20",
+      "readTime": "8 dakika",
+      "excerpt": "Teras ve balkon kapıları modern iç mekan tasarımı için kritik öneme sahiptir. Fonksiyonellik ve estetik değerler.",
+      "keywords": ["teras kapıları", "balkon kapıları", "alüminyum sürgülü kapılar", "katlanabilir teras kapıları", "ısı yalıtımlı teras kapıları", "modern iç mekan kapıları"],
+      "content": "Teras ve balkon kapıları, modern iç mekan donanımı için önemli unsurlardır. Gelişmiş alüminyum sürgülü kapı ve pencere sistemleri, optimum teknik parametrelerin yanı sıra rafine bir estetik sunar.",
+      "sections": [
+        {
+          "title": "Kapsamlı Sürgülü Kapı ve Pencere Sistem Çözümleri",
+          "content": "Modern mimarinin ihtiyaçlarına yanıt veren yenilikçi alüminyum sistemler."
+        },
+        {
+          "title": "Sürgülü ve Kaldır-Sür Kapılar",
+          "content": "Uf>1.9 W/(m²K) ve Uw 0.85 W/(m²K)'den başlayan ısı yalıtımı, 4 metreye kadar yüksek cam sistemleri."
+        },
+        {
+          "title": "Katlanmalı Kapılar",
+          "content": "Dışa veya içe açılabilen sistemler, 8 adede kadar kapı paneli, 0.7-1.2 metre genişlik, 3 metre yükseklik."
+        },
+        {
+          "title": "Enerji Performansı",
+          "content": "Uf 0.84 W/(m²K)'den başlayan ısı yalıtımı, 9A sınıfına kadar su geçirmezlik, C4 sınıfına kadar rüzgar yükü direnci."
+        }
+      ],
+      "image": "/images/blog/teras-balkon-kapilari.webp",
+      "author": "Toz Yapı Teknolojileri",
+      "canonical": "https://tozyapi.com.tr/blog/teras-balkon-kapilari-modern-tasarim"
+    }
+  ],
+  "categories": [
+    {
+      "id": "surdurulebilirlik",
+      "label": "Sürdürülebilirlik",
+      "description": "Yeşil bina, enerji verimliliği ve çevre dostu çözümler hakkında makaleler",
+      "slug": "surdurulebilirlik"
+    },
+    {
+      "id": "mimari-tasarim",
+      "label": "Mimari Tasarım",
+      "description": "Cephe sistemleri, brise soleil ve mimari çözümler",
+      "slug": "mimari-tasarim"
+    },
+    {
+      "id": "inovasyon",
+      "label": "İnovasyon & Teknoloji",
+      "description": "Yeni teknolojiler, akıllı sistemler ve gelecek trendleri",
+      "slug": "inovasyon"
+    },
+    {
+      "id": "enerji-verimliligi",
+      "label": "Enerji Verimliliği",
+      "description": "Enerji tasarrufu, HVAC optimizasyonu ve akıllı gölgeleme",
+      "slug": "enerji-verimliligi"
+    },
+    {
+      "id": "teknik-rehber",
+      "label": "Teknik Rehberler",
+      "description": "Malzeme karşılaştırmaları ve uygulama rehberleri",
+      "slug": "teknik-rehber"
+    },
+    {
+      "id": "guvenlik",
+      "label": "Güvenlik & Standartlar",
+      "description": "EN standartları, güvenlik sistemleri ve sertifikasyon",
+      "slug": "guvenlik"
+    },
+    {
+      "id": "hizmetler",
+      "label": "Hizmetlerimiz",
+      "description": "TOZ Yapı'nın sunduğu hizmetler ve süreçler",
+      "slug": "hizmetler"
+    },
+    {
+      "id": "urun-inceleme",
+      "label": "Ürün İncelemeleri",
+      "description": "Ürün gamımız ve teknik özellikler",
+      "slug": "urun-inceleme"
+    }
+  ]
+}

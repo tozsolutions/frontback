@@ -1,0 +1,322 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Alüminyum - PVC - Ahşap Kapı, Pencere, Doğrama ve Cephe Çözümleri",
+      "slug": "aluminyum-pvc-ahsap-kapi-pencere-dograma-cephe",
+      "category": "Cephe Sistemleri",
+      "description": "Modern mimari için yüksek performanslı alüminyum, PVC ve ahşap kapı, pencere ve cephe sistemleri. Termal yalıtım, ses izolasyonu ve estetik tasarım bir arada.",
+      "features": [
+        "Termal yalıtımlı profiller",
+        "Yüksek ses izolasyonu",
+        "Farklı renk ve kaplama seçenekleri",
+        "Pasif bina standartlarına uygun",
+        "Uzun ömürlü ve dayanıklı"
+      ],
+      "applications": ["Konut", "Ofis", "Alışveriş Merkezi", "Hastane", "Otel"],
+      "image": "/images/products/cephe-sistemleri.webp",
+      "technicalDocs": "/katalog/cephe-sistemleri.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Akıllı Cam Uygulamaları",
+      "slug": "akilli-cam-uygulamalari",
+      "category": "Akıllı Sistemler",
+      "description": "Elektrik kontrollü gizlilik camı, termokromik ve fotokromik akıllı cam teknolojileri. Modern yapılar için inovatif çözümler.",
+      "features": [
+        "Elektrik kontrollü gizlilik",
+        "UV koruması",
+        "Enerji tasarrufu",
+        "Ses izolasyonu",
+        "Uzaktan kontrol"
+      ],
+      "applications": ["Toplantı odaları", "Banyo", "Ofis bölmesi", "Hastane", "Otel"],
+      "image": "/images/products/akilli-cam.webp",
+      "technicalDocs": "/katalog/akilli-cam.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Açık Hava Mutfakları",
+      "slug": "acik-hava-mutfaklari",
+      "category": "Dış Mekan",
+      "description": "Bahçe ve teraslarınız için hava koşullarına dayanıklı, şık ve fonksiyonel açık hava mutfak sistemleri.",
+      "features": [
+        "Hava koşullarına dayanıklı",
+        "Paslanmaz çelik ekipman",
+        "Özelleştirilebilir tasarım",
+        "Kolay temizlik",
+        "Entegre depolama"
+      ],
+      "applications": ["Villa", "Bahçe", "Teras", "Restoran", "Otel"],
+      "image": "/images/products/acik-hava-mutfak.webp",
+      "technicalDocs": "/katalog/acik-hava-mutfak.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Bahçe ve Çit Sistemleri",
+      "slug": "bahce-ve-cit-sistemleri",
+      "category": "Dış Mekan",
+      "description": "Güvenlik ve estetiği bir araya getiren modern bahçe düzenlemeleri ve çit sistemleri.",
+      "features": [
+        "Yüksek güvenlik",
+        "Estetik tasarım",
+        "Dayanıklı malzemeler",
+        "Otomatik kapı entegrasyonu",
+        "Farklı yükseklik seçenekleri"
+      ],
+      "applications": ["Konut", "Site", "Fabrika", "Okul", "Park"],
+      "image": "/images/products/bahce-cit.webp",
+      "technicalDocs": "/katalog/bahce-cit.pdf"
+    },
+    {
+      "id": 5,
+      "name": "Dış Cephe Jaluzisi - Brisey",
+      "slug": "dis-cephe-jaluzisi-brisey",
+      "category": "Güneş Kırıcı Sistemler",
+      "description": "Brisey dış cephe jaluzi sistemleri ile binalarınızı güneşin zararlı etkilerinden koruyun, enerji tasarrufu sağlayın.",
+      "features": [
+        "%40-60 enerji tasarrufu",
+        "Otomatik güneş takip",
+        "Rüzgar sensörü",
+        "Farklı lamel genişlikleri",
+        "Uzun ömürlü alüminyum"
+      ],
+      "applications": ["Ofis", "AVM", "Hastane", "Otel", "Kamu Binaları"],
+      "image": "/images/products/brisey-jaluzi.webp",
+      "technicalDocs": "/katalog/brisey-jaluzi.pdf"
+    },
+    {
+      "id": 6,
+      "name": "Havuz Kapama Çözümleri",
+      "slug": "havuz-kapama-cozumleri",
+      "category": "Havuz Sistemleri",
+      "description": "Yüksek ve alçak havuz kapak sistemleri ile havuzunuzu dört mevsim kullanın. Güvenlik ve ısı tasarrufu.",
+      "features": [
+        "Dört mevsim kullanım",
+        "Isı tasarrufu",
+        "Güvenlik kilidi",
+        "Otomatik açma-kapama",
+        "UV korumalı polikarbonat"
+      ],
+      "applications": ["Villa", "Otel", "Rezidans", "Termal", "Spor Kompleksi"],
+      "image": "/images/products/havuz-kapama.webp",
+      "technicalDocs": "/katalog/havuz-kapama.pdf"
+    },
+    {
+      "id": 7,
+      "name": "Isıtma ve Soğutma Sistemleri",
+      "slug": "isitma-ve-sogutma-sistemleri",
+      "category": "İklimlendirme",
+      "description": "Enerji verimli ısıtma ve soğutma çözümleri ile konforlu yaşam alanları yaratın.",
+      "features": [
+        "Yüksek enerji verimliliği",
+        "Akıllı termostat kontrolü",
+        "Sessiz çalışma",
+        "Çevre dostu soğutucu",
+        "Uzaktan erişim"
+      ],
+      "applications": ["Konut", "Ofis", "AVM", "Hastane", "Endüstri"],
+      "image": "/images/products/isitma-sogutma.webp",
+      "technicalDocs": "/katalog/isitma-sogutma.pdf"
+    },
+    {
+      "id": 8,
+      "name": "Kapı Sistemleri",
+      "slug": "kapi-sistemleri",
+      "category": "Kapı Sistemleri",
+      "description": "Otomatik kapı, yangın kapısı, ses yalıtımlı kapı ve özel tasarım kapı sistemleri.",
+      "features": [
+        "Otomatik açma-kapama",
+        "Yangın dayanımı",
+        "Ses izolasyonu",
+        "Erişilebilirlik standartları",
+        "Güvenlik sensörleri"
+      ],
+      "applications": ["Hastane", "AVM", "Ofis", "Otel", "Konut"],
+      "image": "/images/products/kapi-sistemleri.webp",
+      "technicalDocs": "/katalog/kapi-sistemleri.pdf"
+    },
+    {
+      "id": 9,
+      "name": "Kepenk Sistemleri",
+      "slug": "kepenk-sistemleri",
+      "category": "Güvenlik Sistemleri",
+      "description": "Güvenlik ve estetiği bir araya getiren kepenk sistemleri. Elektrikli ve manuel seçenekler.",
+      "features": [
+        "Yüksek güvenlik",
+        "Otomatik kontrol",
+        "Acil durum açma",
+        "Farklı renk seçenekleri",
+        "Rüzgar dayanımı"
+      ],
+      "applications": ["Mağaza", "Depo", "Garaj", "Ofis", "Konut"],
+      "image": "/images/products/kepenk-sistemleri.webp",
+      "technicalDocs": "/katalog/kepenk-sistemleri.pdf"
+    },
+    {
+      "id": 10,
+      "name": "Kış Bahçesi",
+      "slug": "kis-bahcesi",
+      "category": "Dış Mekan",
+      "description": "Evinizin değerini artıracak, dört mevsim keyifli vakit geçirebileceğiniz kış bahçesi çözümleri.",
+      "features": [
+        "Termal yalıtım",
+        "Kayar sistem",
+        "Katlanır cam",
+        "LED aydınlatma",
+        "Özelleştirilebilir tasarım"
+      ],
+      "applications": ["Villa", "Restoran", "Kafe", "Otel", "Rezidans"],
+      "image": "/images/products/kis-bahcesi.webp",
+      "technicalDocs": "/katalog/kis-bahcesi.pdf"
+    },
+    {
+      "id": 11,
+      "name": "Panjur Sistemleri",
+      "slug": "panjur-sistemleri",
+      "category": "Güneş Kırıcı Sistemler",
+      "description": "Geleneksel ve modern panjur sistemleri ile gizlilik, güvenlik ve estetik bir arada.",
+      "features": [
+        "Gizlilik koruması",
+        "Işık kontrolü",
+        "Isı yalıtımı",
+        "Otomatik kontrol",
+        "Darbeye dayanıklı"
+      ],
+      "applications": ["Konut", "Ofis", "Otel", "Hastane", "Okul"],
+      "image": "/images/products/panjur-sistemleri.webp",
+      "technicalDocs": "/katalog/panjur-sistemleri.pdf"
+    },
+    {
+      "id": 12,
+      "name": "Pergola Rolling Roof Bioclimatic Tente",
+      "slug": "pergola-rolling-roof-bioclimatic-tente",
+      "category": "Dış Mekan",
+      "description": "Açılır-kapanır tavan sistemi ile hava koşullarına uyum sağlayan akıllı pergola çözümleri.",
+      "features": [
+        "Açılır-kapanır tavan",
+        "Yağmur sensörü",
+        "Rüzgar sensörü",
+        "LED aydınlatma",
+        "Yan perde opsiyonu"
+      ],
+      "applications": ["Villa", "Restoran", "Kafe", "Otel", "Bahçe"],
+      "image": "/images/products/pergola-bioclimatic.webp",
+      "technicalDocs": "/katalog/pergola-bioclimatic.pdf"
+    },
+    {
+      "id": 13,
+      "name": "Sundurma ve Araç Parkı (Carport)",
+      "slug": "sundurma-ve-arac-parki-carport",
+      "category": "Dış Mekan",
+      "description": "Araçlarınızı hava koşullarından koruyacak şık ve dayanıklı carport sistemleri.",
+      "features": [
+        "UV koruması",
+        "Kar yükü dayanımı",
+        "Modern tasarım",
+        "Çift araç kapasitesi",
+        "Güneş paneli entegrasyonu"
+      ],
+      "applications": ["Villa", "Site", "AVM", "Ofis", "Hastane"],
+      "image": "/images/products/carport.webp",
+      "technicalDocs": "/katalog/carport.pdf"
+    },
+    {
+      "id": 14,
+      "name": "Turnike ve Bariyer Sistemleri",
+      "slug": "turnike-ve-bariyer-sistemleri",
+      "category": "Güvenlik Sistemleri",
+      "description": "Geçiş kontrol sistemleri ile güvenli ve kontrollü giriş-çıkış sağlayın.",
+      "features": [
+        "Plaka tanıma",
+        "Kartlı geçiş",
+        "Yüz tanıma",
+        "Acil durum açma",
+        "Entegre yazılım"
+      ],
+      "applications": ["Ofis", "Site", "Fabrika", "AVM", "Havalimanı"],
+      "image": "/images/products/turnike-bariyer.webp",
+      "technicalDocs": "/katalog/turnike-bariyer.pdf"
+    },
+    {
+      "id": 15,
+      "name": "Yerli ve İthal Sineklik Sistemleri",
+      "slug": "yerli-ve-ithal-sineklik-sistemleri",
+      "category": "Pencere Sistemleri",
+      "description": "Pencere ve kapılarınız için efektif sineklik çözümleri. Katlanır, sürme ve manyetik seçenekler.",
+      "features": [
+        "İnce file dokusu",
+        "Katlanır sistem",
+        "Manyetik kapanış",
+        "Çocuk kilidi",
+        "Kolay temizlik"
+      ],
+      "applications": ["Konut", "Ofis", "Restoran", "Otel", "Hastane"],
+      "image": "/images/products/sineklik-sistemleri.webp",
+      "technicalDocs": "/katalog/sineklik-sistemleri.pdf"
+    },
+    {
+      "id": 16,
+      "name": "Zip Perde Giyotin Rüzgar Kırıcı Sürme Sistemleri",
+      "slug": "zip-perde-giyotin-ruzgar-kirici-surme",
+      "category": "Güneş Kırıcı Sistemler",
+      "description": "Dış mekan zip perde ve giyotin sistemleri ile teraslarınızı rüzgardan koruyun.",
+      "features": [
+        "Rüzgar dayanımı",
+        "UV koruması",
+        "Otomatik kontrol",
+        "Farklı kumaş seçenekleri",
+        "Yağmur geçirmez"
+      ],
+      "applications": ["Restoran", "Kafe", "Villa", "Otel", "Bahçe"],
+      "image": "/images/products/zip-perde.webp",
+      "technicalDocs": "/katalog/zip-perde.pdf"
+    },
+    {
+      "id": 17,
+      "name": "Güneş Kırıcı Sistemler",
+      "slug": "gunes-kirici-sistemler",
+      "category": "Güneş Kırıcı Sistemler",
+      "description": "Brise soleil sistemleri ile binalarınızı güneşin zararlı etkilerinden koruyun ve enerji tasarrufu sağlayın.",
+      "features": [
+        "%40-60 enerji tasarrufu",
+        "LEED/BREEAM puanı",
+        "Otomatik güneş takip",
+        "Farklı lamel tipleri",
+        "Uzun ömürlü alüminyum"
+      ],
+      "applications": ["Ofis", "AVM", "Hastane", "Otel", "Kamu Binaları"],
+      "image": "/images/products/gunes-kirici.webp",
+      "technicalDocs": "/katalog/gunes-kirici.pdf"
+    },
+    {
+      "id": 18,
+      "name": "Cephe Kaplama Sistemleri",
+      "slug": "cephe-kaplama-sistemleri",
+      "category": "Cephe Sistemleri",
+      "description": "Alüminyum kompozit, HPL, seramik ve doğal taş cephe kaplama çözümleri.",
+      "features": [
+        "Hava koşullarına dayanıklı",
+        "Geniş renk seçeneği",
+        "Kolay bakım",
+        "Yangın dayanımı",
+        "Termal yalıtım"
+      ],
+      "applications": ["Ofis", "AVM", "Hastane", "Otel", "Kamu Binaları"],
+      "image": "/images/products/cephe-kaplama.webp",
+      "technicalDocs": "/katalog/cephe-kaplama.pdf"
+    }
+  ],
+  "categories": [
+    "Cephe Sistemleri",
+    "Akıllı Sistemler",
+    "Dış Mekan",
+    "Güneş Kırıcı Sistemler",
+    "Havuz Sistemleri",
+    "İklimlendirme",
+    "Kapı Sistemleri",
+    "Güvenlik Sistemleri",
+    "Pencere Sistemleri",
+    "İç Mekan"
+  ]
+}

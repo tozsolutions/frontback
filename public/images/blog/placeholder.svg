@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="blogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#blogGradient)"/>
+  
+  <!-- Pattern -->
+  <g opacity="0.1">
+    <circle cx="100" cy="100" r="80" fill="white"/>
+    <circle cx="300" cy="200" r="60" fill="white"/>
+    <circle cx="600" cy="150" r="100" fill="white"/>
+    <circle cx="900" cy="300" r="70" fill="white"/>
+    <circle cx="1100" cy="100" r="90" fill="white"/>
+    <circle cx="200" cy="500" r="75" fill="white"/>
+    <circle cx="500" cy="450" r="85" fill="white"/>
+    <circle cx="800" cy="550" r="65" fill="white"/>
+    <circle cx="1050" cy="480" r="95" fill="white"/>
+  </g>
+  
+  <!-- Icon -->
+  <g transform="translate(525, 200)">
+    <rect x="0" y="0" width="150" height="180" rx="10" fill="none" stroke="white" stroke-width="8"/>
+    <line x1="0" y1="50" x2="150" y2="50" stroke="white" stroke-width="8"/>
+    <line x1="30" y1="80" x2="120" y2="80" stroke="white" stroke-width="6" opacity="0.7"/>
+    <line x1="30" y1="100" x2="120" y2="100" stroke="white" stroke-width="6" opacity="0.7"/>
+    <line x1="30" y1="120" x2="90" y2="120" stroke="white" stroke-width="6" opacity="0.7"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="600" y="450" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
+    TOZ YAPI TEKNOLOJİLERİ
+  </text>
+  <text x="600" y="510" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" opacity="0.9">
+    Blog
+  </text>
+  
+  <!-- Website -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" opacity="0.7">
+    www.tozyapi.com.tr
+  </text>
+</svg>

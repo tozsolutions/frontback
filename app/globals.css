@@ -1,13 +1,59 @@
 @import "tailwindcss";
 
 :root {
+  /* Brand Colors - Turquoise Theme */
+  --turquoise-50: #f0fdfa;
+  --turquoise-100: #ccfbf1;
+  --turquoise-200: #99f6e4;
+  --turquoise-300: #5eead4;
+  --turquoise-400: #2dd4bf;
+  --turquoise-500: #14b8a6;
+  --turquoise-600: #0d9488;
+  --turquoise-700: #0f766e;
+  --turquoise-800: #115e59;
+  --turquoise-900: #134e4a;
+  
+  /* Primary Brand Color */
+  --primary: #0d9488;
+  --primary-hover: #0f766e;
+  
+  /* Secondary Colors */
+  --secondary: #1e3a5f;
+  --secondary-hover: #1e40af;
+  
+  /* Neutral Colors */
   --background: #ffffff;
   --foreground: #171717;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #0d9488;
+  
+  /* Semantic Colors */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-turquoise-50: var(--turquoise-50);
+  --color-turquoise-100: var(--turquoise-100);
+  --color-turquoise-200: var(--turquoise-200);
+  --color-turquoise-300: var(--turquoise-300);
+  --color-turquoise-400: var(--turquoise-400);
+  --color-turquoise-500: var(--turquoise-500);
+  --color-turquoise-600: var(--turquoise-600);
+  --color-turquoise-700: var(--turquoise-700);
+  --color-turquoise-800: var(--turquoise-800);
+  --color-turquoise-900: var(--turquoise-900);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -16,11 +62,149 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #14b8a6;
+    --primary-hover: #2dd4bf;
   }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Container Utilities */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* Custom Utilities */
+.text-gradient {
+  background: linear-gradient(135deg, var(--turquoise-500), var(--turquoise-700));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--turquoise-500), var(--turquoise-700));
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(135deg, var(--secondary), var(--secondary-hover));
+}
+
+/* Button Styles */
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.4);
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Focus Styles */
+*:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--turquoise-200);
+  color: var(--turquoise-900);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--turquoise-400);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--turquoise-500);
 }
