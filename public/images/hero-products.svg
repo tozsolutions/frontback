@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="600" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="productsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="600" fill="url(#productsGrad)"/>
+  
+  <!-- Product Grid Pattern -->
+  <g fill="none" stroke="#14b8a6" stroke-width="2" opacity="0.2">
+    <rect x="100" y="100" width="250" height="250"/>
+    <rect x="400" y="100" width="250" height="250"/>
+    <rect x="700" y="100" width="250" height="250"/>
+    <rect x="1000" y="100" width="250" height="250"/>
+    <rect x="1300" y="100" width="250" height="250"/>
+    <rect x="1600" y="100" width="250" height="250"/>
+  </g>
+  
+  <!-- Product Icons -->
+  <g fill="#14b8a6" opacity="0.4">
+    <circle cx="225" cy="225" r="40"/>
+    <circle cx="525" cy="225" r="40"/>
+    <circle cx="825" cy="225" r="40"/>
+    <circle cx="1125" cy="225" r="40"/>
+    <circle cx="1425" cy="225" r="40"/>
+    <circle cx="1725" cy="225" r="40"/>
+  </g>
+  
+  <text x="960" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
+    Ürün Gruplarımız
+  </text>
+  <text x="960" y="470" font-family="Arial, sans-serif" font-size="24" fill="#14b8a6" text-anchor="middle">
+    Kapsamlı Çözümler
+  </text>
+</svg>

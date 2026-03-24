@@ -62,12 +62,13 @@ export default function CatalogPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-secondary to-secondary-hover text-white py-20">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
+      <section className="relative bg-gradient-to-r from-secondary to-secondary-hover text-white py-20 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/hero-catalog.svg')] bg-cover bg-center opacity-20"></div>
+        <div className="container mx-auto px-4 relative z-10">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center animate-fade-in-up">
             Katalog
           </h1>
-          <p className="text-xl text-center max-w-3xl mx-auto text-gray-200">
+          <p className="text-xl text-center max-w-3xl mx-auto text-gray-200 animate-fade-in-up stagger-1">
             Ürün kataloglarımızı indirin, teknik detayları inceleyin
           </p>
         </div>

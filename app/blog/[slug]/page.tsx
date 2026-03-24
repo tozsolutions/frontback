@@ -81,13 +81,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       />
 
       {/* Hero Section */}
-      <section className="relative h-[50vh] min-h-[400px] bg-gradient-to-r from-blue-900 to-blue-700">
-        <div className="absolute inset-0 bg-black/40" />
+      <section className="relative bg-gradient-to-r from-secondary to-secondary-hover text-white py-16 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/hero-blog.svg')] bg-cover bg-center opacity-10"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-4xl">
             <Link
               href="/blog"
-              className="inline-flex items-center text-blue-200 hover:text-white mb-4 transition-colors"
+              className="inline-flex items-center text-teal-200 hover:text-white mb-4 transition-colors"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -95,7 +95,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               Blog&apos;a Dön
             </Link>
             
-            <span className="inline-block bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-4">
+            <span className="inline-block bg-teal-500/20 text-teal-200 text-sm font-semibold px-3 py-1 rounded-full mb-4">
               {post.categoryLabel}
             </span>
             

@@ -72,8 +72,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-secondary to-secondary-hover text-white py-16">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-gradient-to-r from-secondary to-secondary-hover text-white py-16 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/hero-products.svg')] bg-cover bg-center opacity-10"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <Link
             href="/urun-gruplari"
             className="inline-flex items-center text-teal-200 hover:text-white mb-4 transition-colors"
