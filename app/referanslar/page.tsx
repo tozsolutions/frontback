@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Referanslar | Toz Yapı Teknolojileri',
@@ -10,55 +11,103 @@ export default function ReferencesPage() {
   const references = [
     {
       id: 1,
-      name: 'Sapphire İstanbul',
-      category: 'Konut',
-      location: 'İstanbul',
-      description: 'Lüks konut projesi için özel güneş kırıcı sistemler',
-      image: '🏢',
+      name: '400 Yataklı Sincan Eğitim Araştırma Hastanesi',
+      category: 'Sağlık',
+      location: 'Ankara',
+      description: 'Şehir hastanesi için brise soleil sistemleri',
+      image: '/images/references/400_yatakli_sincan_egitim_arastirma_hahastanesi.webp',
     },
     {
       id: 2,
-      name: 'Zorlu Center',
-      category: 'AVM',
+      name: 'Swissôtel Valorlu Pergola',
+      category: 'Otel',
       location: 'İstanbul',
-      description: 'Alışveriş merkezi cephe ve gölgeleme çözümleri',
-      image: '🛍️',
+      description: 'Lüks otel için bioclimatic pergola sistemleri',
+      image: '/images/references/swissotel_valorlu_pergola.webp',
     },
     {
       id: 3,
-      name: 'Başakşehir Hastanesi',
-      category: 'Sağlık',
-      location: 'İstanbul',
-      description: 'Şehir hastanesi için brise soleil sistemleri',
-      image: '🏥',
+      name: 'Bülent Ecevit Üniversitesi',
+      category: 'Eğitim',
+      location: 'Zonguldak',
+      description: 'Üniversite kampüsü için cephe çözümleri',
+      image: '/images/references/bulent_ecevit_universitesi.webp',
     },
     {
       id: 4,
-      name: 'Teknofest İstanbul',
-      category: 'Etkinlik',
-      location: 'İstanbul',
-      description: 'Geçici yapılar için pergola sistemleri',
-      image: '🎪',
+      name: 'Erzincan Şehir Stadyumu',
+      category: 'Spor',
+      location: 'Erzincan',
+      description: 'Stadyum için güneş kırıcı sistemler',
+      image: '/images/references/erzincan_sehir_stadyumu.webp',
     },
     {
       id: 5,
-      name: 'Antalya Havalimanı',
-      category: 'Ulaştırma',
-      location: 'Antalya',
-      description: 'Dış hatlar terminali cephe sistemleri',
-      image: '✈️',
+      name: 'Hırvatistan Villa Projesi',
+      category: 'Konut',
+      location: 'Hırvatistan',
+      description: 'Lüks villa için pergola ve güneş kırıcı sistemler',
+      image: '/images/references/hirvatistan_villa_projesi.webp',
     },
     {
       id: 6,
-      name: 'Vadistanbul Ofis',
-      category: 'Ofis',
-      location: 'İstanbul',
-      description: 'A sınıfı ofis binası güneş kırıcı çözümleri',
-      image: '🏢',
+      name: 'TSE Ankara Merkez Kampüsü',
+      category: 'Kamu',
+      location: 'Ankara',
+      description: 'Standart enstitüsü için cephe modernizasyonu',
+      image: '/images/references/tse_ankara_merkez_kampusu.webp',
+    },
+    {
+      id: 7,
+      name: 'Bayburt Devlet Hastanesi',
+      category: 'Sağlık',
+      location: 'Bayburt',
+      description: 'Devlet hastanesi için güneş kırıcı çözümler',
+      image: '/images/references/bayburt_devlet_hastanesi.webp',
+    },
+    {
+      id: 8,
+      name: 'Hatay Hassa Devlet Hastanesi',
+      category: 'Sağlık',
+      location: 'Hatay',
+      description: 'Modern hastane için cephe sistemleri',
+      image: '/images/references/hatay_hassa_devlet_hastanesi.webp',
+    },
+    {
+      id: 9,
+      name: 'Yozgat Yerköy Devlet Hastanesi',
+      category: 'Sağlık',
+      location: 'Yozgat',
+      description: 'Sağlık tesisi için güneş kontrol sistemleri',
+      image: '/images/references/yozgat_yerkoy_devlet_hastanesi.webp',
+    },
+    {
+      id: 10,
+      name: 'Mugla AFAD',
+      category: 'Kamu',
+      location: 'Muğla',
+      description: 'AFAD müdürlüğü için cephe çözümleri',
+      image: '/images/references/mugla_afad.webp',
+    },
+    {
+      id: 11,
+      name: 'Kocatepe 1917',
+      category: 'Konut',
+      location: 'Afyon',
+      description: 'Rezidans projesi için pergola sistemleri',
+      image: '/images/references/kocatepe_1917.webp',
+    },
+    {
+      id: 12,
+      name: 'Value Village Pozitif ROI',
+      category: 'Konut',
+      location: 'Yurt Dışı',
+      description: 'Konut projesi için sürdürülebilir çözümler',
+      image: '/images/references/value_village_pozitif_roi.webp',
     },
   ];
 
-  const categories = ['Tümü', 'Konut', 'AVM', 'Sağlık', 'Ofis', 'Ulaştırma', 'Etkinlik'];
+  const categories = ['Tümü', 'Sağlık', 'Otel', 'Eğitim', 'Spor', 'Konut', 'Kamu'];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -107,7 +156,7 @@ export default function ReferencesPage() {
             {categories.map((category) => (
               <button
                 key={category}
-                className="px-4 py-2 rounded-full text-sm font-medium transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200"
+                className="px-4 py-2 rounded-full text-sm font-medium transition-all bg-white text-gray-700 hover:bg-gray-100 border-2 border-gray-200"
               >
                 {category}
               </button>
@@ -116,19 +165,33 @@ export default function ReferencesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {references.map((ref) => (
-              <div key={ref.id} className="card overflow-hidden">
-                <div className="relative h-48 bg-gradient-to-br from-teal-100 to-cyan-100 flex items-center justify-center">
-                  <div className="text-7xl">{ref.image}</div>
+              <div key={ref.id} className="card overflow-hidden animate-fade-in-up">
+                <div className="relative h-56 bg-gray-200 overflow-hidden">
+                  <Image
+                    src={ref.image}
+                    alt={ref.name}
+                    fill
+                    className="object-cover hover:scale-110 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-white/95 text-gray-800 text-xs font-bold px-3 py-1.5 rounded-full shadow-md">
+                      {ref.category}
+                    </span>
+                  </div>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-xs font-semibold text-teal-600 bg-teal-50 px-3 py-1 rounded-full">
-                      {ref.category}
-                    </span>
-                    <span className="text-xs text-gray-500">{ref.location}</span>
+                    <h3 className="text-lg font-bold text-gray-900 line-clamp-2">{ref.name}</h3>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{ref.name}</h3>
-                  <p className="text-gray-600 text-sm">{ref.description}</p>
+                  <p className="text-gray-600 text-sm mb-3">{ref.description}</p>
+                  <div className="flex items-center text-gray-500 text-sm">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.7a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    {ref.location}
+                  </div>
                 </div>
               </div>
             ))}

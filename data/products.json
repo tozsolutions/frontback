@@ -14,7 +14,7 @@
         "Uzun ömürlü ve dayanıklı"
       ],
       "applications": ["Konut", "Ofis", "Alışveriş Merkezi", "Hastane", "Otel"],
-      "image": "/images/products/cephe-sistemleri.webp",
+      "image": "/images/products/aluminyum_sistemler.webp",
       "technicalDocs": "/katalog/cephe-sistemleri.pdf"
     },
     {
@@ -31,7 +31,7 @@
         "Uzaktan kontrol"
       ],
       "applications": ["Toplantı odaları", "Banyo", "Ofis bölmesi", "Hastane", "Otel"],
-      "image": "/images/products/akilli-cam.webp",
+      "image": "/images/products/hero_akillicam.webp",
       "technicalDocs": "/katalog/akilli-cam.pdf"
     },
     {
@@ -48,7 +48,7 @@
         "Entegre depolama"
       ],
       "applications": ["Villa", "Bahçe", "Teras", "Restoran", "Otel"],
-      "image": "/images/products/acik-hava-mutfak.webp",
+      "image": "/images/products/bahce_giris_otomasyon.webp",
       "technicalDocs": "/katalog/acik-hava-mutfak.pdf"
     },
     {
@@ -65,7 +65,7 @@
         "Farklı yükseklik seçenekleri"
       ],
       "applications": ["Konut", "Site", "Fabrika", "Okul", "Park"],
-      "image": "/images/products/bahce-cit.webp",
+      "image": "/images/products/bahce_giris_otomasyon.webp",
       "technicalDocs": "/katalog/bahce-cit.pdf"
     },
     {
@@ -82,7 +82,7 @@
         "Uzun ömürlü alüminyum"
       ],
       "applications": ["Ofis", "AVM", "Hastane", "Otel", "Kamu Binaları"],
-      "image": "/images/products/brisey-jaluzi.webp",
+      "image": "/images/products/header_dis_cephe_jaluzisi_birisoley.webp",
       "technicalDocs": "/katalog/brisey-jaluzi.pdf"
     },
     {
@@ -99,7 +99,7 @@
         "UV korumalı polikarbonat"
       ],
       "applications": ["Villa", "Otel", "Rezidans", "Termal", "Spor Kompleksi"],
-      "image": "/images/products/havuz-kapama.webp",
+      "image": "/images/products/havuz_kapama.webp",
       "technicalDocs": "/katalog/havuz-kapama.pdf"
     },
     {
@@ -116,7 +116,7 @@
         "Uzaktan erişim"
       ],
       "applications": ["Konut", "Ofis", "AVM", "Hastane", "Endüstri"],
-      "image": "/images/products/isitma-sogutma.webp",
+      "image": "/images/products/kis_bahcesi.webp",
       "technicalDocs": "/katalog/isitma-sogutma.pdf"
     },
     {
@@ -133,7 +133,7 @@
         "Güvenlik sensörleri"
       ],
       "applications": ["Hastane", "AVM", "Ofis", "Otel", "Konut"],
-      "image": "/images/products/kapi-sistemleri.webp",
+      "image": "/images/products/fotoselkapi.webp",
       "technicalDocs": "/katalog/kapi-sistemleri.pdf"
     },
     {
@@ -150,7 +150,7 @@
         "Rüzgar dayanımı"
       ],
       "applications": ["Mağaza", "Depo", "Garaj", "Ofis", "Konut"],
-      "image": "/images/products/kepenk-sistemleri.webp",
+      "image": "/images/products/hero_kepenk_transparent_seffaf_seffaf_kepenk_shutter.webp",
       "technicalDocs": "/katalog/kepenk-sistemleri.pdf"
     },
     {
@@ -167,7 +167,7 @@
         "Özelleştirilebilir tasarım"
       ],
       "applications": ["Villa", "Restoran", "Kafe", "Otel", "Rezidans"],
-      "image": "/images/products/kis-bahcesi.webp",
+      "image": "/images/products/kis_bahcesi.webp",
       "technicalDocs": "/katalog/kis-bahcesi.pdf"
     },
     {
@@ -184,7 +184,7 @@
         "Darbeye dayanıklı"
       ],
       "applications": ["Konut", "Ofis", "Otel", "Hastane", "Okul"],
-      "image": "/images/products/panjur-sistemleri.webp",
+      "image": "/images/products/monoblok_panjur.webp",
       "technicalDocs": "/katalog/panjur-sistemleri.pdf"
     },
     {
@@ -201,7 +201,7 @@
         "Yan perde opsiyonu"
       ],
       "applications": ["Villa", "Restoran", "Kafe", "Otel", "Bahçe"],
-      "image": "/images/products/pergola-bioclimatic.webp",
+      "image": "/images/products/hero_pergole.webp",
       "technicalDocs": "/katalog/pergola-bioclimatic.pdf"
     },
     {
@@ -218,7 +218,7 @@
         "Güneş paneli entegrasyonu"
       ],
       "applications": ["Villa", "Site", "AVM", "Ofis", "Hastane"],
-      "image": "/images/products/carport.webp",
+      "image": "/images/products/urunlerimiz_sundurma.webp",
       "technicalDocs": "/katalog/carport.pdf"
     },
     {
@@ -235,7 +235,7 @@
         "Entegre yazılım"
       ],
       "applications": ["Ofis", "Site", "Fabrika", "AVM", "Havalimanı"],
-      "image": "/images/products/turnike-bariyer.webp",
+      "image": "/images/products/bariyer_turnike.webp",
       "technicalDocs": "/katalog/turnike-bariyer.pdf"
     },
     {
@@ -252,7 +252,7 @@
         "Kolay temizlik"
       ],
       "applications": ["Konut", "Ofis", "Restoran", "Otel", "Hastane"],
-      "image": "/images/products/sineklik-sistemleri.webp",
+      "image": "/images/products/hero_sineklik.webp",
       "technicalDocs": "/katalog/sineklik-sistemleri.pdf"
     },
     {
@@ -269,7 +269,7 @@
         "Yağmur geçirmez"
       ],
       "applications": ["Restoran", "Kafe", "Villa", "Otel", "Bahçe"],
-      "image": "/images/products/zip-perde.webp",
+      "image": "/images/products/urunlerimiz_zip_screen.webp",
       "technicalDocs": "/katalog/zip-perde.pdf"
     },
     {
@@ -286,7 +286,7 @@
         "Uzun ömürlü alüminyum"
       ],
       "applications": ["Ofis", "AVM", "Hastane", "Otel", "Kamu Binaları"],
-      "image": "/images/products/gunes-kirici.webp",
+      "image": "/images/products/hero_brisoley.webp",
       "technicalDocs": "/katalog/gunes-kirici.pdf"
     },
     {
@@ -303,7 +303,7 @@
         "Termal yalıtım"
       ],
       "applications": ["Ofis", "AVM", "Hastane", "Otel", "Kamu Binaları"],
-      "image": "/images/products/cephe-kaplama.webp",
+      "image": "/images/products/urunlerimiz_aluminyum.webp",
       "technicalDocs": "/katalog/cephe-kaplama.pdf"
     }
   ],
