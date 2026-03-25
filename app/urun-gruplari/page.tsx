@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllProducts, getProductCategories } from '@/lib/products';
 
 const products = getAllProducts();
@@ -39,8 +40,8 @@ export default function ProductsPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   selectedCategory === category
-                    ? 'bg-gradient-to-r from-teal-500 to-teal-600 text-white shadow-md'
-                    : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
+                    ? 'bg-gradient-to-r from-teal-500 to-teal-700 text-white shadow-lg'
+                    : 'bg-white text-gray-700 hover:bg-gray-100 border-2 border-gray-200'
                 }`}
               >
                 {category}
@@ -54,71 +55,59 @@ export default function ProductsPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProducts.map((product) => {
-              const iconMap: Record<string, string> = {
-                'Güneş Kırıcı Sistemler': '☀️',
-                'Cephe Sistemleri': '🏢',
-                'Dış Mekan': '🏡',
-                'Güvenlik Sistemleri': '🔒',
-                'Kapı Sistemleri': '🚪',
-                'Pencere Sistemleri': '🪟',
-                'Akıllı Sistemler': '💡',
-                'Havuz Sistemleri': '🏊',
-                'İklimlendirme': '🌡️',
-                'İç Mekan': '🏠',
-              };
+            {filteredProducts.map((product) => (
+              <Link
+                key={product.id}
+                href={`/urun-gruplari/${product.slug}`}
+                className="card overflow-hidden group animate-fade-in-up"
+              >
+                <div className="relative h-64 bg-gray-200 overflow-hidden">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-white/95 text-gray-800 text-xs font-bold px-4 py-2 rounded-full shadow-md">
+                      {product.category}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors line-clamp-2">
+                    {product.name}
+                  </h3>
+                  <p className="text-gray-600 mb-5 line-clamp-3 leading-relaxed">
+                    {product.description}
+                  </p>
+                  <div className="flex items-center text-teal-600 font-bold group-hover:gap-3 gap-2 transition-all">
+                    Detaylı Bilgi
+                    <svg className="w-5 h-5 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
 
-              return (
-                <Link
-                  key={product.id}
-                  href={`/urun-gruplari/${product.slug}`}
-                  className="card overflow-hidden group"
-                >
-                  <div className="relative h-56 bg-gradient-to-br from-teal-100 to-cyan-100">
-                    <div className="absolute inset-0 flex items-center justify-center text-7xl">
-                      {iconMap[product.category] || '🏗️'}
-                    </div>
-                    <div className="absolute top-4 left-4">
-                      <span className="bg-white/90 text-gray-800 text-xs font-semibold px-3 py-1 rounded-full">
-                        {product.category}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors">
-                      {product.name}
-                    </h3>
-                    <p className="text-gray-600 mb-4 line-clamp-3">
-                      {product.description}
-                    </p>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {product.features.slice(0, 3).map((feature, idx) => (
-                        <span
-                          key={idx}
-                          className="text-xs bg-teal-50 text-teal-700 px-2 py-1 rounded"
-                        >
-                          {feature}
-                        </span>
-                      ))}
-                    </div>
-                    <div className="flex items-center text-teal-600 font-semibold">
-                      Detaylı Bilgi
-                      <svg className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+          <div className="text-center mt-16">
+            <Link
+              href="/urun-gruplari"
+              className="inline-block bg-gradient-to-r from-teal-500 to-teal-700 text-white px-10 py-5 rounded-xl font-bold hover:from-teal-600 hover:to-teal-800 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
+            >
+              Tüm Ürünleri Görüntüle
+            </Link>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-16">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-800 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 className="text-3xl font-bold mb-6">
             Projeniz İçin Özel Çözüm Arıyorsunuz?
           </h2>
           <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
@@ -126,7 +115,7 @@ export default function ProductsPage() {
           </p>
           <Link
             href="/iletisim"
-            className="inline-block bg-white text-teal-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
+            className="inline-block bg-white text-teal-700 px-10 py-5 rounded-xl font-bold hover:bg-gray-100 transition-all shadow-2xl hover:shadow-3xl hover:-translate-y-1"
           >
             İletişime Geçin
           </Link>

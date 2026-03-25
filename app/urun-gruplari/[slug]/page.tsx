@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllProducts, getProductBySlug, getRelatedProducts, generateProductSchema } from '@/lib/products';
 
 interface ProductPageProps {
@@ -50,19 +51,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const relatedProducts = getRelatedProducts(slug, 4);
   const structuredData = generateProductSchema(product);
 
-  const iconMap: Record<string, string> = {
-    'Güneş Kırıcı Sistemler': '☀️',
-    'Cephe Sistemleri': '🏢',
-    'Dış Mekan': '🏡',
-    'Güvenlik Sistemleri': '🔒',
-    'Kapı Sistemleri': '🚪',
-    'Pencere Sistemleri': '🪟',
-    'Akıllı Sistemler': '💡',
-    'Havuz Sistemleri': '🏊',
-    'İklimlendirme': '🌡️',
-    'İç Mekan': '🏠',
-  };
-
   return (
     <article className="min-h-screen bg-white">
       {/* Schema.org Structured Data */}
@@ -84,14 +72,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </svg>
             Ürün Gruplarına Dön
           </Link>
-          
+
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-4xl">{iconMap[product.category] || '🏗️'}</span>
             <span className="bg-teal-500/20 text-teal-200 text-sm font-semibold px-3 py-1 rounded-full">
               {product.category}
             </span>
           </div>
-          
+
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
             {product.name}
           </h1>
@@ -99,10 +86,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
       </section>
 
       {/* Product Image */}
-      <section className="relative h-[300px] md:h-[400px] bg-gradient-to-br from-teal-100 to-cyan-100">
-        <div className="absolute inset-0 flex items-center justify-center text-9xl">
-          {iconMap[product.category] || '🏗️'}
-        </div>
+      <section className="relative h-[400px] md:h-[500px] bg-gray-100">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
       </section>
 
       {/* Content */}
@@ -207,10 +199,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   href={`/urun-gruplari/${relatedProduct.slug}`}
                   className="card overflow-hidden group"
                 >
-                  <div className="relative h-40 bg-gradient-to-br from-teal-100 to-cyan-100">
-                    <div className="absolute inset-0 flex items-center justify-center text-5xl">
-                      {iconMap[relatedProduct.category] || '🏗️'}
-                    </div>
+                  <div className="relative h-48 bg-gray-200 overflow-hidden">
+                    <Image
+                      src={relatedProduct.image}
+                      alt={relatedProduct.name}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-500"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    />
                   </div>
                   <div className="p-4">
                     <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-teal-600 transition-colors">
