@@ -48,17 +48,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-secondary to-secondary-hover text-white py-24 md:py-32 overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
-        </div>
-        
-        {/* Hero Image Overlay */}
-        <div className="absolute inset-0 bg-[url('/images/references/hero_brisoley.webp')] bg-cover bg-center opacity-10"></div>
-        
+        <div className="absolute inset-0 bg-[url('/images/logos/Blog_Hero.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in-up">

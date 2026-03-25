@@ -82,7 +82,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-secondary to-secondary-hover text-white py-16 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero-blog.svg')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/images/logos/Blog_Hero.jpg')] bg-cover bg-center opacity-10"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-4xl">
             <Link
