@@ -1,10 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
   "framework": "nextjs",
+  "buildCommand": "next build",
   "outputDirectory": ".next",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
   "github": {
     "enabled": true,
     "silent": false,
@@ -40,5 +40,8 @@
     }
   ],
   "trailingSlash": false,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "regions": ["fra1"],
+  "memory": 1024,
+  "maxDuration": 10
 }

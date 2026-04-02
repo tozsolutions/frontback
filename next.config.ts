@@ -51,6 +51,23 @@ const nextConfig: NextConfig = {
   
   // Powered by header removal
   poweredByHeader: false,
+  
+  // Experimental features
+  experimental: {
+    // Optimize server components
+    optimizePackageImports: ['lucide-react', 'class-variance-authority'],
+  },
+  
+  // Webpack configuration
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    return config;
+  },
 };
 
 export default nextConfig;
